@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+
+    
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  
+</head>
+<body>
+
+  <div class="main-container">
+    <div class="upper-container">
+        <div class="upper-content">
+          <div class="mybal">My balance</div>
+          <div class="bal">$921.48</div>
+          <img src="images/logo.svg" alt="logo" class="logo">
+        </div>
+    </div>
+    <div class="lower-container">
+      <div class="spending">Spending - Last 7 days</div>
+      
+      <div class="myChart-wrapper">
+
+        <canvas id="myChart" width="400" height="250">
+          <script src="barGraph.js"></script>
+        </canvas>
+
+      </div>
+
+      <hr class="line">
+      
+      <div class="after-hr">
+        <div class="left">
+          <div class="total">Total this month</div>
+          <div class="cost">$478.33</div>
+        </div>
+        <div class="right">
+          <p class="percent">+2.4%</p>
+          <p class="last-month">from last month</p> 
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

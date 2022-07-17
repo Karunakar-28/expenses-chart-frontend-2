@@ -1,0 +1,141 @@
+:root{
+    --soft-red : hsl(10, 79%, 65%);
+    --cyan : hsl(186, 34%, 60%);
+    --dark-brown: hsl(25, 47%, 15%);
+    --medium-brown: hsl(28, 10%, 53%);
+    --cream: hsl(27, 66%, 92%);
+    --very-pale-orange: hsl(33, 100%, 98%);
+}
+
+p{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    margin : 0;
+    background-color: var(--cream);
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.main-container{
+    margin: 65.4px 17.44px 65.4px 17.44px;
+}
+
+.upper-container{
+    border-radius: 10px;
+    background-color: var(--soft-red);
+    padding: 21.8px;
+}
+
+.lower-container{
+    margin-top: 13.08px;
+    border-radius: 10px;
+    background-color: var(--very-pale-orange)
+    /*padding: 30.52px 21.8px 30.52px 21.8px;*/
+}
+
+.upper-content{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    color: var(--very-pale-orange);
+    row-gap: 5px;
+    align-items:center;
+}
+
+.mybal{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bal{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+.logo{
+    width:60px;
+    grid-row:1/3;
+    grid-column: 2/3;
+    margin-left: auto;
+    margin-right:2px;
+}
+
+.spending{
+    padding: 23px 19px 30.52px 19px;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--dark-brown)
+}
+
+.myChart-wrapper{
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+.line{
+    margin: 21.8px;
+    border: 1px solid var(--cream);
+    border-radius: 5px;
+}
+
+.right{
+    float: right;
+    position: relative;
+    top: -37px;
+    text-align: end;
+}
+
+.after-hr{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cost{
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.percent{
+    font-weight: 700;
+}
+
+.total{
+    padding-bottom: 7px;
+}
+
+.total,.last-month{
+    color: var(--medium-brown);
+}
+
+.cost,.percent{
+    color: var(--dark-brown)
+}
+
+@media screen and (min-width: 460px){
+
+    html{
+        display: grid;
+        place-items: center;
+        height: 100%;
+    }
+
+    body{
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-container{
+        margin: 0;
+    }
+
+    
+
+}
