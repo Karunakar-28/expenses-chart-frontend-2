@@ -31,10 +31,10 @@ Users should be able to:
 
 ### Screenshot
 Desktop:
-![](./screenshots/desktop.PNG.jpg)
+![](./screenshots/desktop.PNG)
 
 Mobile:
-![](./screenshots/mobile.PNG.jpg)
+![](./screenshots/mobile.PNG)
 
 ## My process
 
